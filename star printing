@@ -1,0 +1,11 @@
+'''#to print right to left
+n=int(input("enter the nymber of rows:"))
+for i in range(n,0,-1):
+    print((n-i)*' ',+i*'*')
+
+#to print left to right
+n=int(input("enter the nymber of rows:"))
+for i in range(n,0,-1):
+    print(+i*'*',(n-i)*' ')'''
+    
+#this program is from n to 0 
